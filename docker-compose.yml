@@ -1,0 +1,7 @@
+services:
+  marimo:
+    build: .
+    ports:
+      - "2718:2718"
+    volumes:
+      - .:/work
